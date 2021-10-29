@@ -1,0 +1,205 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                .first-page {
+                    width: 100vw;
+                    height: 100vh;
+                    background-color: rgb(163, 253, 253);
+
+                 
+                }
+                
+                .navbar {
+                    display: flex;
+                    position: fixed;
+                    color: black;
+                    background-color: skyblue;
+                    width: 1450px;
+                    opacity: 0.7;
+                }
+                
+                p {
+                    text-decoration: none;
+                    padding: 25px;
+                    display: flex;
+                    position: relative;
+                    left: 150px;
+                    font-size: 20px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+                
+                .navbar p:hover {
+                    background-color: slateblue;
+                }
+                
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    color: black;
+                }
+                
+                .heading h2 {
+                    position: relative;
+                    left: 100px;
+                    bottom: 70px;
+                    font-size: 45px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+                
+                .img img {
+                    position: relative;
+                    top: 280px;
+                    left: 700px;
+                    top: 200px;
+                }
+                
+                .started button {
+                    width: 200px;
+                    background-color: coral;
+                    color: white;
+                    height: 50px;
+                    position: relative;
+                    left: 200px;
+                    bottom: 50px;
+                    font-size: 20px;
+                    border-radius: 15px;
+                    cursor: pointer;
+                }
+                
+                .started button:hover {
+                    background-color: tomato;
+                }
+                
+                .second-page {
+                    height: 100vh;
+                    width: 100vw;
+                    background-color: dodgerblue;
+                    overflow-x: hidden;
+                    overflow-y: hidden;
+                    z-index: -1;
+                    
+                }
+                
+                .card1 {
+                    width: 250px;
+                    height: 300px;
+                    background-color: floralwhite;
+                    position: relative;
+                    top: 100px;
+                    left: 100px;
+                    border-radius: 10px;
+                }
+                
+                .card2 {
+                    width: 250px;
+                    height: 300px;
+                    background-color: floralwhite;
+                    position: relative;
+                    left: 400px;
+                    bottom: 200px;
+                    border-radius: 10px;
+                }
+                
+                .card3 {
+                    width: 250px;
+                    height: 300px;
+                    background-color: floralwhite;
+                    position: relative;
+                    bottom: 500px;
+                    left: 700px;
+                    border-radius: 10px;
+                }
+                
+                .proto {
+                    position: relative;
+                    top: 150px;
+                    left: 20px;
+                }
+                
+                .watch img {
+                    position: relative;
+                    top: 50px;
+                }
+                
+                .mobile img {
+                    position: relative;
+                    top: 100px;
+                }
+                
+                .step1 h2 {
+                    text-align: center;
+                    position: relative;
+                    bottom: 250px;
+                }
+                
+                .step2 h2 {
+                    text-align: center;
+                    position: relative;
+                    bottom: 150px;
+                }
+                
+                .step3 h2 {
+                    text-align: center;
+                    position: relative;
+                    bottom: 100px;
+                }
+                
+                .step1 p {
+                    position: relative;
+                    bottom: 200px;
+                    right: 800px;
+                }
+                
+                .step1 button {
+                    position: relative;
+                    bottom: 280px;
+                    left: 60px;
+                    cursor: pointer;
+                    width: 150px;
+                    height: 35px;
+                    font-size: 25px;
+                    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+                    border-color: papayawhip;
+                    border-radius: 20px;
+                }
+
+
+
+                .step2 button {
+                    position: relative;
+                    bottom: 150px;
+                    left: 60px;
+                    cursor: pointer;
+                    width: 150px;
+                    height: 35px;
+                    font-size: 25px;
+                    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+                    border-color: papayawhip;
+                    border-radius: 20px;
+                }
+
+
+                .step3 button {
+                    position: relative;
+                    bottom: 100px;
+                    left: 60px;
+                    cursor: pointer;
+                    width: 150px;
+                    height: 35px;
+                    font-size: 25px;
+                    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+                    border-color: papayawhip;
+                    border-radius: 20px;
+                }
+
+
+
+
+
+
+
+
+                
